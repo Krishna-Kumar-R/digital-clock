@@ -104,12 +104,14 @@ body.light .date-display {
   box-shadow: 0 2px 12px #00e0b661;
 }
 
-/* Light Mode Buttons */
+/* Light Mode Buttons: SOLID DARK TEXT for High Visibility */
 body.light .toggle-button {
-  background: linear-gradient(90deg, #fffde4 0%, #c1ffe7 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background: none;
+  color: #212553;
+  -webkit-text-fill-color: #212553;
+  background-clip: unset;
+  -webkit-background-clip: unset;
+  font-weight: 900;
 }
 
 /* Responsive Styling */
